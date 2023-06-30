@@ -2,6 +2,11 @@ package org.tw;
 
 public class Main {
     public static void main(String[] args) {
+        String song = song(args);
+        System.out.println(song);
+    }
+
+    private static String song(String[] animals) {
         String song = "There was an old lady who swallowed a fly.\n" +
                 "I don't know why she swallowed a fly - perhaps she'll die!\n" +
                 "\n" +
@@ -42,7 +47,6 @@ public class Main {
                 "\n" +
                 "There was an old lady who swallowed a horse...\n" +
                 "...She's dead, of course!";
-
-        System.out.println(song);
+        return song;
     }
 }
