@@ -15,6 +15,8 @@ public class MainTest {
 
   public static final String[] ORIGINAL_ANIMALS =
       new String[] {"fly", "spider", "bird", "cat", "dog", "cow", "horse"};
+  public static final String[] IDEA_ANIMALS =
+    new String[] {"idea", "thread", "word", "chat", "blog", "flow", "program"};
   public static final String GOLDEN_MASTER_PATH = "goldenMaster.txt";
 
   private ByteArrayOutputStream inMemoryStream;
