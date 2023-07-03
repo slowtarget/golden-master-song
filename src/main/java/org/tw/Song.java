@@ -18,9 +18,8 @@ public class Song {
         "I don't know how she swallowed a %s!%n",
         "...She's dead, of course!"
       };
-
   // "fly", "spider", "bird", "cat", "dog", "cow", "horse"
-//    "idea", "thread", "word", "chat", "blog", "flow", "program"
+  // "idea", "thread", "word", "chat", "blog", "flow", "program"
   public static final String THERE_WAS_AN_OLD_LADY_WHO_SWALLOWED_A = "There was an old lady who swallowed a %s%s%n";
   public static final String TO_CATCH_THE = "She swallowed the %s to catch the %s";
   public static final String TO_CATCH_DELIMITER = String.format(",%n");
